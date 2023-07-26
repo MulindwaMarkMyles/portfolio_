@@ -177,13 +177,14 @@ body {
                 margin-left:20px;
                 margin-right:20px;
         }
-}
-/* @media (max-width:650px) {
-        .topic {
-                left:50px;
-                right:50px;
+        .projects .container {
+                flex-direction:column;
         }
-} */
+        .specialities .items .images img {
+                max-width: 100px;
+                max-height:100px;
+        }
+}
 
 .aboutMe {
         display:grid;
@@ -321,9 +322,6 @@ body {
         margin-right:40px;
         position: relative;
         letter-spacing: 2px;
-}
-.projects {
-        color:white;
 }
 .text {
         color:white;
@@ -516,7 +514,8 @@ body {
         height: 20px;
         width:20px;
         object-fit: cover;
-        margin: 0px 0px;
+        margin: 0px 5px;
+        border-radius: 5px;
 }
 */
 
