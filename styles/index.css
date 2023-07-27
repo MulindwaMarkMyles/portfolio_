@@ -361,9 +361,12 @@ body {
 .projects .c {
         transition:0.5s all ease-in;
 }
-.projects .c .section {
+.projects .c .matrix-section,
+.projects .c .snake-section {
         background: url(../images/matrix.jpg);
         border-radius: 10px;
+        padding:10px;
+        margin:20px 0px;
 }
 .projects .c .matrix,
 .projects .c .snake {
@@ -373,9 +376,7 @@ body {
         padding:10px 10px;
         border-radius:10px;
 }
-.projects .c .matrix {
-        margin-top:10px;
-}
+
 .projects .python .cleaner a,
 .projects .c .matrix a,
 .projects .c .snake a {
@@ -392,9 +393,15 @@ body {
 }
 
 .projects .webDev {
+        transition:0.5s all ease-in;
+}
+.projects .webDev .homepage-mobile-section,
+.projects .webDev .homepage-pc-section {
         background: url(../images/webdev.png);
         border-radius: 10px;
-        transition:0.5s all ease-in;
+        padding:10px;
+        margin:20px 0px;
+        
 }
 .projects .webDev .homepage-pc,
 .projects .webDev .homepage-mobile {
@@ -404,9 +411,6 @@ body {
         color:black;
         font-weight: 500;
         padding:10px 10px;
-}
-.projects .webDev .homepage-pc {
-        margin-top:10px;
 }
 
 .projects .python {
