@@ -426,30 +426,30 @@ body {
         backdrop-filter:blur(100px) saturate(200%);
 }
 .projects .container:nth-child(2) {
+        transition-delay:150ms;
 }
 .projects .container:nth-child(3) {
         transition-delay:300ms;
 }
-*/
-    .custom-shape-divider-bottom-1690198278 {
+.custom-shape-divider-bottom-1690198278 {
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
         overflow: hidden;
         line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1690198278 svg {
+}
+
+.custom-shape-divider-bottom-1690198278 svg {
         position: relative;
         display: block;
         width: calc(174% + 1.3px);
         height: 245px;
-    }
-    
-    .custom-shape-divider-bottom-1690198278 .shape-fill {
+}
+
+.custom-shape-divider-bottom-1690198278 .shape-fill {
         fill: #292828;
-    }
+}
 
 .bottom-bg {
         position: relative;
