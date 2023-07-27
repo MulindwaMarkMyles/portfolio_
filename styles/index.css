@@ -83,7 +83,7 @@ body {
         width:50px;
         left:0px;
         height:fit-content;
-        background-color:white;
+        background-color:#ffffff;
         border-bottom-right-radius:10px;
         border-bottom-left-radius:10px;
         transform:translateY(-300px);
@@ -164,7 +164,6 @@ body {
         font-size:30px;
         font-weight: 600;
         color:white;
-        /* background-color: #292828; */
         background-color:black;
         z-index:1000;
 }
@@ -187,7 +186,7 @@ body {
         }
         .links span,
         .links a {
-                font-size: 12px;
+                font-size: 10px;
         }
 }
 
